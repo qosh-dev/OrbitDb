@@ -1,0 +1,29 @@
+{
+  "name": "orbitdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "nodemon --exec ts-node -- ./dataModels/docs/docs.ts",
+    "feed": "nodemon --exec ts-node -- ./dataModels/feed/feed.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qosh-dev/OrbitDb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qosh-dev/OrbitDb/issues"
+  },
+  "homepage": "https://github.com/qosh-dev/OrbitDb#readme",
+  "dependencies": {
+    "@types/node": "^16.11.1",
+    "ipfs": "^0.59.1",
+    "nodemon": "^2.0.13",
+    "orbit-db": "^0.27.2",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  }
+}

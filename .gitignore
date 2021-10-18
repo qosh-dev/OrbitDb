@@ -1,3 +1,10 @@
+#For ignoring repos
+**/log/*/
+**/feed/*/
+**/keyvalue/*/
+**/docs/*/
+**/counter/*/
+
 # Logs
 logs
 *.log
